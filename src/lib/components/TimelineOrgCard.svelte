@@ -1,20 +1,20 @@
 <script lang="ts">
-	// Remove export let statements since we're hardcoding the values
-	// export let companyName: string;
-	// export let logoSrc: string;
-	// export let location: string;
-	// export let joinedDate: string;
-	// export let designation: string;
+	export let name: string;
+	export let logo: string;
+	export let location: string;
+	export let joined: string;
+	export let designation: string;
+	export let type: string;
 </script>
 
 <section class="relative flex items-center">
 	<!-- Date and Organization Details -->
 	<div class="flex flex-col items-start">
-		<img src="/path/to/your/logo.jpg" alt="logo" class="w-[48px] rounded-full" />
-		<h3 class="text-lg font-bold">Company Name</h3>
-		<p class="text-xs font-light text-[#7A9299]">Location</p>
-		<p class="text-xs font-light text-[#7A9299]">Joined Date</p>
-		<p class="text-xs font-light text-[#7A9299]">Designation</p>
+		<img src={logo} alt="logo" class="w-[48px] rounded-full" />
+		<h3 class="text-lg font-bold">{name}</h3>
+		<p class="text-xs font-light text-[#7A9299]">{location}</p>
+		<p class="text-xs font-light text-[#7A9299]">{joined}</p>
+		<p class="text-xs font-light text-[#7A9299]">{designation}</p>
 	</div>
 
 	<!-- SVG -->
@@ -112,7 +112,7 @@
 			<h3 class="text-2xl font-bold">Designation</h3>
 		</div>
 		<div class="mt-1 pt-0">
-			<p class="mt-5 text-sm font-light text-[#7A9299]">Full-time</p>
+			<p class="mt-5 text-sm font-light text-[#7A9299]">{type}</p>
 		</div>
 	</div>
 </section>
