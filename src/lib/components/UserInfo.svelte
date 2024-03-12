@@ -28,7 +28,14 @@
 			</div>
 		</div>
 		<div class="flex w-full flex-row items-center justify-between">
-			<Button variant="default">Following</Button>
+			<Button
+				style="box-shadow: 0px 4px 0px 0px #4D4D4D"
+				variant="default"
+				size="default"
+				class=" w-[6.6rem]flex h-[2.25rem] flex-row items-center justify-center gap-1 border  border-gray-500 bg-white text-neutral-800 hover:bg-[#0066FF] hover:text-white "
+			>
+				Follow</Button
+			>
 			<div class="flex flex-row items-center">
 				<a href="https://github.com/harshpathakzz" target="_blank">
 					<Button variant="link" size="sm" class="gap-2">
