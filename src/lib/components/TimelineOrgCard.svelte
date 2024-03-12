@@ -9,7 +9,7 @@
 
 <section class="relative mb-0 ml-[10rem] mt-0 flex items-center">
 	<!-- Date and Organization Details -->
-	<div class="flex flex-col items-start text-right">
+	<div class="flex flex-col items-end text-right">
 		<img src={logo} alt="logo" class="w-[48px] rounded-full" />
 		<h3 class="text-right text-lg font-bold">{name}</h3>
 		<p class="text-right text-xs font-light text-[#7A9299]">{location}</p>
