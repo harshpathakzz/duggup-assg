@@ -2,7 +2,7 @@
 	import Button from '$lib/components/ui/button/button.svelte';
 	import * as DropdownMenu from '$lib/components/ui/dropdown-menu';
 	import * as Avatar from '$lib/components/ui/avatar';
-	import { Separator } from '$lib/components/ui/separator';
+	import Sepa from '$lib/components/Sepa.svelte';
 </script>
 
 <div>
@@ -171,7 +171,7 @@
 			</div>
 		</nav>
 	</div>
-	<div>
-		<Separator />
+	<div class="mt-2 w-3/4">
+		<Sepa />
 	</div>
 </div>

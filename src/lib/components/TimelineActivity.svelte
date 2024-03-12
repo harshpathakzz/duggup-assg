@@ -8,7 +8,7 @@
 <section class="relative mb-0 ml-[10.625rem] mt-0 flex items-center">
 	<!-- Date -->
 	<div class="mr-6 flex-shrink-0">
-		<div class="rounded-md bg-white p-4 shadow-md">
+		<div class="rounded-md bg-white p-4">
 			<time class="text-xs font-light text-[#7A9299]">{date}</time>
 		</div>
 	</div>
