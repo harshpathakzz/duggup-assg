@@ -136,7 +136,7 @@
 				<DropdownMenu.Root>
 					<DropdownMenu.Trigger>
 						<div class="flex flex-row items-center justify-center gap-2">
-							<Avatar.Root class="h-12 w-12 rounded-full border border-black ">
+							<Avatar.Root class="h-12 w-12 rounded-full border border-gray-400 ">
 								<Avatar.Image
 									src="https://s3-alpha-sig.figma.com/img/8ed8/92f8/c135d62b39e8cc0f1e2dfce61ea32106?Expires=1711324800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=jdQX-2LIKd-iagc6n2olzrfdMwFrAKHBFqk4aW4fS2nOOe5pZjnRgGH94~XA5qQp0IMD7P83u45zu~dH5h-a1wFU2XCJxGRVMyC7AaAYg-UCYnXJYqetzzcoxPmXV178gzY3e0eUlpO8HSBIlhK91S3vCW4sA1dU2P9Ttxmyb4gDf112piLShysBuofSPVUglEgZj4XESShQ2PAIegY-pJrAyF4HT5lGy0tePo8IzINqBuT40vKgZ4~0j-gVvSyUMHof8zneTvepnwCKlPln1BshDJVxP3XzNZuUBdXxgfRVCGl2x8ZCPiahMZzKjdi3VDI~lKGachykK~cA2KAm6Q__"
 									alt="avatar"

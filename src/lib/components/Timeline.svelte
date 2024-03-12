@@ -25,7 +25,6 @@
 	const activities = [
 		{
 			date: 'Dec, 2023',
-			content: 'No amount of technology can convert a bad story into a good story.',
 			cards: [
 				{
 					imageSrc:
@@ -43,7 +42,6 @@
 		},
 		{
 			date: 'Dec, 2023',
-			content: 'Startup Lesson I am reflecting. Don\'t build for the "average person".',
 			cards: [
 				{
 					imageSrc:
@@ -63,11 +61,27 @@
 </script>
 
 <section class="relative">
-	{#each activities as { date, content, cards }}
-		<TimelineActivity {date} {content} {cards} />
+	{#each activities as { date, cards }, i}
+		{#if i === 0}
+			<TimelineActivity {date} {cards} />
+		{/if}
 	{/each}
 
-	{#each orgCards as { logo, name, location, joined, designation, type }}
-		<TimelineOrgCard {logo} {name} {location} {joined} {designation} {type} />
+	{#each orgCards as { logo, name, location, joined, designation, type }, i}
+		{#if i === 0}
+			<TimelineOrgCard {logo} {name} {location} {joined} {designation} {type} />
+		{/if}
+	{/each}
+
+	{#each activities as { date, cards }, i}
+		{#if i === 1}
+			<TimelineActivity {date} {cards} />
+		{/if}
+	{/each}
+
+	{#each orgCards as { logo, name, location, joined, designation, type }, i}
+		{#if i === 1}
+			<TimelineOrgCard {logo} {name} {location} {joined} {designation} {type} />
+		{/if}
 	{/each}
 </section>

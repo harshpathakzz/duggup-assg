@@ -5,7 +5,7 @@
 	export let cards: { imageSrc: string; altText: string; content: string }[];
 </script>
 
-<section class="relative flex items-center">
+<section class="relative mb-0 ml-[10.625rem] mt-0 flex items-center">
 	<!-- Date -->
 	<div class="mr-6 flex-shrink-0">
 		<div class="rounded-md bg-white p-4 shadow-md">

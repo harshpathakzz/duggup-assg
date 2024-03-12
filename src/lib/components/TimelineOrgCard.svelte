@@ -7,14 +7,14 @@
 	export let type: string;
 </script>
 
-<section class="relative flex items-center">
+<section class="relative mb-0 ml-[10rem] mt-0 flex items-center">
 	<!-- Date and Organization Details -->
-	<div class="flex flex-col items-start">
+	<div class="flex flex-col items-start text-right">
 		<img src={logo} alt="logo" class="w-[48px] rounded-full" />
-		<h3 class="text-lg font-bold">{name}</h3>
-		<p class="text-xs font-light text-[#7A9299]">{location}</p>
-		<p class="text-xs font-light text-[#7A9299]">{joined}</p>
-		<p class="text-xs font-light text-[#7A9299]">{designation}</p>
+		<h3 class="text-right text-lg font-bold">{name}</h3>
+		<p class="text-right text-xs font-light text-[#7A9299]">{location}</p>
+		<p class="text-right text-xs font-light text-[#7A9299]">joined</p>
+		<p class="text-right text-xs font-light text-[#7A9299]">{joined}</p>
 	</div>
 
 	<!-- SVG -->
@@ -109,10 +109,10 @@
 	<!-- Content -->
 	<div class="shadow-custom ml-10 w-full rounded-xl border-none">
 		<div class="pb-0">
-			<h3 class="text-2xl font-bold">Designation</h3>
+			<h3 class="text-2xl font-bold">{designation}</h3>
 		</div>
 		<div class="mt-1 pt-0">
-			<p class="mt-5 text-sm font-light text-[#7A9299]">{type}</p>
+			<p class="mt-0 text-sm font-light text-[#7A9299]">{type}</p>
 		</div>
 	</div>
 </section>
