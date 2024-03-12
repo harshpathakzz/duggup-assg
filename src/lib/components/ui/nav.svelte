@@ -112,9 +112,10 @@
 					>
 				</div>
 				<Button
+					style="box-shadow: 0px 4px 0px 0px #4D4D4D"
 					variant="default"
 					size="default"
-					class="flex flex-row items-center justify-center gap-2"
+					class=" flex flex-row items-center justify-center gap-2 border  border-gray-500 bg-white text-neutral-800 hover:bg-[#0066FF] hover:text-white "
 				>
 					<svg
 						width="16"
